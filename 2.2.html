@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<body>
+    <div>
+        <p id="a">
+         First paragraph
+        </p>
+        <p id="b">
+            Last paragraph
+        </p>
+    </div>
+    <table border="1">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+        </tr>
+    </table>
+    <script>
+        function extractData(){
+            let elem1 = document.querySelector('#a');
+            let elem2 = document.querySelector('#b');
+            return console.log(elem1, elem2);
+        }
+        extractData()
+    </script>
+</body>
+</html>
